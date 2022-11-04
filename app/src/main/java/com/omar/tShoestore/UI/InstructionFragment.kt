@@ -8,11 +8,10 @@ import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
 import com.omar.tShoestore.R
-import com.omar.tShoestore.databinding.WelcomeFragmentBinding
+import com.omar.tShoestore.databinding.InstructionFragmentBinding
 
-class WelcomeFragment : Fragment() {
-
-    private lateinit var  binding: WelcomeFragmentBinding
+class InstructionFragment : Fragment() {
+    private lateinit var binding : InstructionFragmentBinding
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -20,9 +19,9 @@ class WelcomeFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
 
-        binding = DataBindingUtil.inflate(inflater, R.layout.welcome_fragment, container, false)
+        binding = DataBindingUtil.inflate(inflater, R.layout.instruction_fragment, container, false)
 
-        binding.nextButton.setOnClickListener{
+        binding.getStarted.setOnClickListener {
             view : View ->
             view.findNavController().navigate(R.id.action_welcomeFragment_to_instructionFragment)
         }

@@ -5,4 +5,10 @@
     <string name="password">password</string>
     <string name="register">Register</string>
     <string name="login">LOGIN</string>
+    <string name="girl_reading">Girl Reading The Instruction</string>
+    <string name="please_read">Please, read the Instruction before start,</string>
+    <string name="instructions">To Add Item To Store ,We Need Some information about it like, The name Of Item ,The Price ,The Description ,Name Of The company,Wish You a Good Luck</string>
+    <string name="get_started">GET STARTED</string>
+    <string name="thankyou">Thank you for Downloading our App, we hope you enjoy our services!</string>
+    <string name="welcome_text">Welcome To Shoe Store</string>
 </resources>

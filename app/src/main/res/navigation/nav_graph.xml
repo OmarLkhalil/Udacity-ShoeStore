@@ -17,6 +17,17 @@
 
     <fragment
         android:id="@+id/welcomeFragment"
+        tools:layout="@layout/welcome_fragment"
         android:name="com.omar.tShoestore.UI.WelcomeFragment"
-        android:label="WelcomeFragment" />
+        android:label="WelcomeFragment" >
+        <action
+            android:id="@+id/action_welcomeFragment_to_instructionFragment"
+            app:destination="@id/instructionFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/instructionFragment"
+        tools:layout="@layout/instruction_fragment"
+        android:name="com.omar.tShoestore.UI.InstructionFragment"
+        android:label="InstructionFragment" />
 </navigation>

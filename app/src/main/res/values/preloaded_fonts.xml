@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/comfortaa</item>
+        <item>@font/lobster</item>
+        <item>@font/mali_extralight</item>
+        <item>@font/oleo_script_swash_caps_bold</item>
+        <item>@font/roboto</item>
+    </array>
+</resources>
