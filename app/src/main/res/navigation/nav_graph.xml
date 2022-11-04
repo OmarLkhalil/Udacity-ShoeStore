@@ -29,5 +29,30 @@
         android:id="@+id/instructionFragment"
         tools:layout="@layout/instruction_fragment"
         android:name="com.omar.tShoestore.UI.InstructionFragment"
-        android:label="InstructionFragment" />
+        android:label="InstructionFragment" >
+        <action
+            android:id="@+id/action_instructionFragment_to_shoeListFragment"
+            app:destination="@id/shoeListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/shoeListFragment"
+        tools:layout="@layout/shoelist_fragment"
+        android:name="com.omar.tShoestore.UI.ShoeListFragment"
+        android:label="ShoeListFragment" >
+        <action
+            android:id="@+id/action_shoeListFragment_to_shoeDetailsFragment"
+            app:destination="@id/shoeDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/shoeDetailsFragment"
+        android:name="com.omar.tShoestore.UI.ShoeDetailsFragment"
+        android:label="ShoeDetailsFragment">
+
+        <action android:id="@+id/shoeDetails_toShoeList"
+            app:destination="@+id/shoeListFragment"
+            >
+
+        </action>
+
+    </fragment>
 </navigation>
