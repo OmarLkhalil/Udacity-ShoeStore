@@ -11,4 +11,10 @@
     <string name="get_started">GET STARTED</string>
     <string name="thankyou">Thank you for Downloading our App, we hope you enjoy our services!</string>
     <string name="welcome_text">Welcome To Shoe Store</string>
+    <string name="name">name</string>
+    <string name="size">size</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="description">Description</string>
+    <string name="company">Company</string>
 </resources>
